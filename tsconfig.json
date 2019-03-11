@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "rootDirs": ["./src"],
+    "outDir": "./dist",
+    "strict": true,
+    "jsx": "preserve",
+    "downlevelIteration": true,
+    "lib": ["es2017", "dom"],
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "noErrorTruncation": true
+  }
+}
